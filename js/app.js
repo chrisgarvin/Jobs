@@ -1,5 +1,13 @@
 $(document).ready(function() {
 
+  $('select').change(function(){
+    if($('select')[0].value == 1){
+      $('.API').show();
+    } else {
+      $('.API').hide();
+    }
+  })
+
   //Upon clicking the submit button, run showJob
 
   $('button').click(showJob());
