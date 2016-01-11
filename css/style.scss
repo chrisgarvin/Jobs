@@ -6,6 +6,7 @@ $gray: #606060;
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
   color: $gray;
+  overflow: auto;
 }
 *,
 *:before,
@@ -39,7 +40,6 @@ html {
   // text-align: center;
   margin: 0 auto;
 }
-
 select {
   display: inline;
   font-family: 'Roboto', sans-serif;
@@ -49,13 +49,34 @@ select {
   font-size: inherit;
   padding: 0px;
   width: 160px;
+  background-color: transparent;
 }
 
 input[type="text"] {
   font-family: 'Roboto', sans-serif;
   border: none;
   font-size: inherit;
+  background-color: transparent;
 }
 .API {
   display: none;
+}
+.css {
+  display: none;
+}
+
+code {
+  margin: 0;
+  padding: 0;
+}
+
+.ProductJob {
+  color: white;
+  cursor: default;
+  display: inline;
+}
+.ProductJob a{
+  color: white;
+  text-decoration: underline;
+  cursor: default;
 }
